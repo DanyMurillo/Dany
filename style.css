@@ -12,8 +12,9 @@ body {
     font-family: Georgia, serif;
     font-size: 18px;
     line-height: 1.6em;
-    color: #FFFFFF;
-    background: #3D3D3D;
+    color: #000000;
+    background: #FFFFFF;
+    
 }
 
 .header {
@@ -30,7 +31,7 @@ body {
 }
 
 .logo {
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
     font-weight: 700;
 }
@@ -38,7 +39,7 @@ body {
 .navbar a {
     position: relative;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #000000;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -51,7 +52,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: #EF7A1A;
+    background: #68ffa7;
     transition: .3s;
 }
 
@@ -60,6 +61,45 @@ body {
 }
 
 .landing {
+    width: 100%;
+    height: auto;
+    margin: 30% 0;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    top: 100%;
+    left: 0;
+}
+
+
+.landing{
+    width: 100%;
+    height: auto;
+    margin: 30% 0;
     text-align: left;
-    background-color: ;
+    justify-content: center;
+    align-content: center;
+    top: 100%;
+    left: 0;
+    font-size: 30px;
+}
+.landing h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 3cm;
+}
+.landing p{
+    text-align: left;
+    font-size: 18px;
+    color: black;
+}
+
+.foot{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #000000;
+    text-align: left;
 }
